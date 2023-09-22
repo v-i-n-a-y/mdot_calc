@@ -1,3 +1,3 @@
 set -e
 
-pyinstaller --noconsole --onefile --name "Mass Flow Calc" main.py
+pyinstaller --noconsole --onefile -i "bernoulli.ico" --name "Mass Flow Calc" main.py
